@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="200" fill="#0f172a"/>
+  
+  <!-- Split sections -->
+  <rect x="0" y="0" width="400" height="200" fill="#1e293b" opacity="0.3"/>
+  <rect x="400" y="0" width="400" height="200" fill="#2563eb" opacity="0.1"/>
+  
+  <!-- Central line -->
+  <line x1="400" y1="0" x2="400" y2="200" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Animated dots -->
+  <circle cx="400" cy="50" r="3" fill="#2563eb">
+    <animate attributeName="cy" values="50;150;50" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="150" r="3" fill="#2563eb">
+    <animate attributeName="cy" values="150;50;150" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Text container -->
+  <rect x="250" y="60" width="300" height="80" rx="5" fill="#2563eb"/>
+  
+  <!-- Text -->
+  <text x="400" y="100" text-anchor="middle" fill="#ffffff" font-size="24" font-weight="bold">manual.theoperator.ai</text>
+  <text x="400" y="125" text-anchor="middle" fill="#ffffff" font-size="14">Your AI-Augmented Operating Manual</text>
+</svg>

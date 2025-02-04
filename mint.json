@@ -36,26 +36,24 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://theoperator.ai/"
+    },
+    {
+      "name": "Sign up for the newsletter",
+      "icon": "envelope",
+      "url": "https://buttondown.com/theoperatorai"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Frameworks",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "frameworks/mcpp"
       ]
     }
   ],
