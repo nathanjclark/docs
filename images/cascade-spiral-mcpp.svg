@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0f172a"/>
+  
+  <!-- Spiral path -->
+  <path d="M 400 80 C 500 80, 600 120, 600 200 C 600 280, 500 320, 400 320 C 300 320, 200 280, 200 200 C 200 120, 300 80, 400 80" 
+        fill="none" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Flowing dots -->
+  <circle r="3" fill="#ffffff">
+    <animateMotion path="M 400 80 C 500 80, 600 120, 600 200 C 600 280, 500 320, 400 320 C 300 320, 200 280, 200 200 C 200 120, 300 80, 400 80" 
+                   dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#ffffff">
+    <animateMotion path="M 400 80 C 500 80, 600 120, 600 200 C 600 280, 500 320, 400 320 C 300 320, 200 280, 200 200 C 200 120, 300 80, 400 80" 
+                   dur="6s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  
+  <!-- Stage squares with rounded corners -->
+  <g>
+    <!-- Reference -->
+    <rect x="360" y="40" width="80" height="80" rx="10" fill="#2563eb"/>
+    <text x="400" y="75" text-anchor="middle" fill="#ffffff" font-size="14">Reference</text>
+    
+    
+    <!-- Edit -->
+    <rect x="560" y="160" width="80" height="80" rx="10" fill="#2563eb"/>
+    <text x="600" y="195" text-anchor="middle" fill="#ffffff" font-size="14">Edit</text>
+    
+    
+    <!-- Share -->
+    <rect x="360" y="280" width="80" height="80" rx="10" fill="#2563eb"/>
+    <text x="400" y="315" text-anchor="middle" fill="#ffffff" font-size="14">Share</text>
+    
+    <!-- Repeat -->
+    <rect x="160" y="160" width="80" height="80" rx="10" fill="#2563eb"/>
+    <text x="200" y="195" text-anchor="middle" fill="#ffffff" font-size="14">Repeat</text>
+    
+  </g>
+  
+  <!-- Connecting lines -->
+  <line x1="440" y1="80" x2="560" y2="200" stroke="#1e293b" stroke-width="1"/>
+  <line x1="600" y1="240" x2="440" y2="320" stroke="#1e293b" stroke-width="1"/>
+  <line x1="360" y1="320" x2="240" y2="240" stroke="#1e293b" stroke-width="1"/>
+  <line x1="200" y1="160" x2="360" y2="80" stroke="#1e293b" stroke-width="1"/>
+</svg>
